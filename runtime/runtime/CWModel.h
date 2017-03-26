@@ -10,7 +10,9 @@
 
 @interface CWModel : NSObject
 
+/** 字典转模型 */
 + (instancetype)modelWithDict:(NSDictionary *)dict;
+/** 打印 */
 + (NSString *)resolveDict:(NSDictionary *)dict;
 
 @end
